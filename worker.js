@@ -23,7 +23,7 @@ self.addEventListener('message', m => {
     })
     .catch(e => {
 
-        console.log('Error detecting barcode', e);
+        console.log('Error detecting barcode', e.toString());
 
     });
 
